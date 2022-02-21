@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.svg" type="image/svg">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,600&family=Oswald:wght@300;400;700&family=PT+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <title>Sergio Adame</title>
+</head>
+
+<body>
+    <div class="preloader" id="preloader">
+        <div class="spinner-wrap">
+            <div class="spinner"></div>
+        </div>
+
+        <div class="left-side"></div>
+        <div class="right-side"></div>
+    </div>
+
+    <header class="site-header">
+        <div class="site-hero"></div>
+
+        <nav class="nav-header">
+
+            <div class="left">
+                <a href="https://github.com/sergio-adame" target="_blank"><i class="fab fa-github"></i> Github</a>
+                <a href="https://www.linkedin.com/in/sergio-adame-valdez" target="_blank"><i class="fab fa-linkedin"></i> Linkedin</a>
+                <a class="lang lang2"><i class="fas fa-language"></i><i>English /</i></a>
+                <a class="lang2" href="index.html"></i><i>Español</i></a>                
+            </div>
+
+            <div class="right">
+                <a href="#sobre-mi">About me</a>
+                <a href="#habilidades">Skills</a>
+                <a href="#portafolio">Portfolio</a>
+                <a href="#contacto">Contact</a>
+            </div>
+
+            <button type="button" id="menu-movil">
+                <i class="fa fa-bars"></i>
+            </button>
+
+        </nav>
+
+        <div class="contenido-header contenedor">
+            <div class="info">
+                <h1>Sergio <span><strong>Adame</strong></span></h1>
+                <h1 class="animate_text"><span>Developer JR</span></h1>
+            </div>
+        </div>
+        <div class="arrow-wrap anchor">
+            <a href="#sobre-mi"><i class="bounce fa fa-arrow-down"></i></a>
+        </div>
+    </header>
+
+    <main id="sobre_mi" class="section">
+        <div class="contenedor fade_in">
+            <h2 id="sobre-mi">About me</h2>
+            <div class="informacion">
+                <div class="perfil">
+                    <img src="./img/FotoCurri.jpg" alt="Foto de perfil">
+                </div>
+                <div class="descripcion">
+                    <p>
+                        I am a Materials Science Engineer graduated from the Universidad Juárez in the state of Durango.
+                    </p>
+                    <p> During my career I acquired useful knowledge for the programming area, such as algorithms and other mathematical concepts, along with other skills.
+                         I have applied my programming knowledge in the automation of repetitive processes, in addition to the creation and maintenance of web pages in general,
+                         both front end, and back end, as well as the creation of relational databases and RESTful APIs.
+                    </p>
+                    <p> 
+                        I consider myself a self-taught individual since I long have been learning  over time, in addition to having completed certified courses by Google, Udemy, Freecodecamp, among others.
+                    </p>
+                    <p>
+                        I also am always expanding my expertise in programming and software development.
+                    </p>
+                </div>
+            </div>
+            <div class="boton">
+                <a class="btn-descargar" target="_blank" href="./files/Resume-Sergio-Adame.pdf">Download Resume</a>
+            </div>
+        </div>
+    </main>
+
+
+    <div id="habilidades" class="habilidades parallax">
+        <div class="contenedor contenido-habilidades fade_in">
+            <h2>My Skills</h2>
+            <ul>
+                <li>
+                    <p>
+                        Interface Design With HTML5, CSS3, Javascript And PHP To Create Dynamic And Responsive Web Sites.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Implementation And Management of SQL And Non-SQL Database Systems.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Web Application Development Using React Frameworks.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Creation of Backend RESTFul API Servers With NodeJS Using Express, MongoDB And TypeScript.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Analysis, Development, Deployment, And Management of Object-Oriented Application Software In Programming Languages Like Python, PHP And Javascript.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="portafolio">
+        <div class="contenedor fade_in">
+            <h2>Portfolio</h2>
+            <div class="cards">
+
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-header">
+                            <img src="./img/smart-brain.jpg" alt="Foto de perfil">
+                            <h3 class="card-title">Face Recognition App</h3>
+                        </div>
+                        <div class="card-description">
+                            <div class="descripcion">
+                                <p>React, Node.js, Express, PostgreSQL, Tachyons, Heroku</p>
+                            </div>
+                            <div class="tecnologias">
+                                <p>Facial recognition webapp with API made in express and SQL database to keep record count per user,
+                                    deployed on heroku
+                                </p>
+                            </div>
+                        </div>
+                        <a href="https://github.com/sergio-adame/Face-Recognition" target="_blank" class="btn-ver-mas">See More</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-header">
+                            <img src="./img/Buscador-imagenes.jpg" alt="Foto de perfil">
+                            <h3 class="card-title">image search engine</h3>
+                        </div>
+                        <div class="card-description">
+                            <div class="descripcion">
+                                <p>HTML, CSS, javascript</p>
+                            </div>
+                            <div class="tecnologias">
+                                <p>Non copyright Image search engine to be used in personal projects using
+                                    pixabay api
+                                </p>
+                            </div>
+                        </div>
+                        <a href="https://github.com/sergio-adame/Buscador-de-imagenes" target="_blank" class="btn-ver-mas">See More</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-header">
+                            <img src="./img/citas-veterinaria.jpg" alt="Foto de perfil">
+                            <h3 class="card-title">appointment manager</h3>
+                        </div>
+                        <div class="card-description">
+                            <div class="descripcion">
+                                <p>HTML, CSS, javascript</p>
+                            </div>
+                            <div class="tecnologias">
+                                <p>Webapp used to manage veterinary appointments using indexedDB
+                                </p>
+                            </div>
+                        </div>
+                        <a href="https://github.com/sergio-adame/Administrador-de-Citas" target="_blank" class="btn-ver-mas">See More</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-header">
+                            <img src="./img/cotizador-cripto.jpg" alt="Foto de perfil">
+                            <h3 class="card-title">Cryptocurrency Converter</h3>
+                        </div>
+                        <div class="card-description">
+                            <div class="descripcion">
+                                <p>HTML, CSS, javascript, fetch</p>
+                            </div>
+                            <div class="tecnologias">
+                                <p>real-time current cryptocurrency price converter using fetch
+                                </p>
+                            </div>
+                        </div>
+                        <a href="https://github.com/sergio-adame/Face-Recognition" target="_blank" class="btn-ver-mas">See More</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-header">
+                            <img src="./img/carrito-compras.jpg" alt="Foto de perfil">
+                            <h3 class="card-title">Shopping Cart</h3>
+                        </div>
+                        <div class="card-description">
+                            <div class="descripcion">
+                                <p>HTML, CSS, javascript</p>
+                            </div>
+                            <div class="tecnologias">
+                                <p>
+                                    Simple website with functional shopping cart
+                                </p>
+                            </div>
+                        </div>
+                        <a href="https://github.com/sergio-adame/Carrito-compras" target="_blank" class="btn-ver-mas">See More</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-header">
+                            <img src="./img/clima.jpg" alt="Foto de perfil">
+                            <h3 class="card-title">Weather App</h3>
+                        </div>
+                        <div class="card-description">
+                            <div class="descripcion">
+                                <p>HTML, CSS, javascript, fetch</p>
+                            </div>
+                            <div class="tecnologias">
+                                <p>
+                                    Current weather finder using fetch
+                                </p>
+                            </div>
+                        </div>
+                        <a href="https://github.com/sergio-adame/Fetch-API-clima" target="_blank" class="btn-ver-mas">See More</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <footer id="contacto" class="contacto">
+        <h2>Contact</h2>
+        <nav class="footer-nav">
+            <a href="https://wa.me/526182018650"> <i class="fab fa-whatsapp"></i> +52 6182018650</a>
+            <a href="mailto:sergioadamev@gmail.com"> <i class="fa fa-envelope"></i>
+                sergioadamev@gmail.com</a>
+        </nav>
+    </footer>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/plugins.js"></script>
+    <script src="./js/scripts-en.js"></script>
+</body>
+
+</html>
