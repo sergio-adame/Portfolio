@@ -714,10 +714,10 @@ footer.contacto a i.fa-envelope {
     color: var(--red);
 }
 
-.lang {
-    margin-left: 50px;
+.marg {
+    margin-left: 3vw;
 }
 
 .lang2 {
-    font-size: 1.8rem;
+    color: var(--primary);
 }
